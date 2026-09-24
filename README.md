@@ -105,9 +105,8 @@ The study is structured into 5 phases. Detailed logs, figures, and code explanat
 
 ## Authors
 
-- [MM](https://github.com/Matteogit05) – [1](src/codice)
-- [AJ](https://github.com/STORMJova) – [2](src/codice)
-- [TB](https://github.com/Tredddo) – [3](src/codice)
+- [AJ](https://github.com/STORMJova) – [Decision Tree](colab/DecisionTree.py)
+- [MM](https://github.com/Matteogit05) – [Random Forests](colab/RandomForest.py)
+- [TB](https://github.com/Tredddo) – [Support Vector Machines](colab/SupportVectorMachines.py)
 
 **Institution:** UniPG - AA 2025/2026
-
