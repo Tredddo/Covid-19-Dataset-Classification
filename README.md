@@ -95,6 +95,7 @@ The study is structured into 5 phases. Detailed logs, figures, and code explanat
 
 - **Runtime:** [Python 3.10+](https://www.python.org)
 - **Google Colab Notebook:** [Google Colaboratory](https://colab.research.google.com)
+- **Google Slides** [Google Slides](https://docs.google.com/presentation)
 - **Scientific Computing & Linear Algebra:** [NumPy](https://numpy.org)
 - **Data Frame Manipulation:** [Pandas](https://pandas.pydata.org)
 - **Machine Learning & Pipeline Architecture:** [scikit-learn](https://scikit-learn.org/stable)
