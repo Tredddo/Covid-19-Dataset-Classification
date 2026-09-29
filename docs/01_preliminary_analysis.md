@@ -10,7 +10,7 @@ The analysis is conducted on `Cleaned-Data.csv`, originally collected from the K
 
 ### 1.1 Dimensionality & Attribute Encoding
 
-- **Sample Space:** 316,800 patient records (one row per patient).
+- **Sample Space:** 316,800 synthetic/combinatorial records generated from all possible combinations of the categorical variables.
 - **Feature Space:** 27 attributes. Except for the nominal string variable `Country`, all features are binary-encoded [0, 1].
 
 ### 1.2 Clinical Taxonomy & Feature Grouping
@@ -90,7 +90,7 @@ The projection of 10,000 records shows **complete visual overlap among the four 
 
 ## 4. Clinical Feature Re-Engineering: Respiratory & Systemic Axes
 
-Since the original labels are unreliable, binary symptoms are aggregated into two clinical dimensions:
+Since the original severity labels are not clearly separable in the explored symptom space, we choose not to use them as the target and instead construct an unsupervised phenotype target:
 
 - **`Total_Respiratory`:** sum of `Dry-Cough`, `Difficulty-in-Breathing`, `Sore-Throat`, `Nasal-Congestion`, `Runny-Nose` (range 0-5).
 - **`Total_Systemic`:** sum of `Fever`, `Tiredness`, `Pains`, `Diarrhea` (range 0-4).

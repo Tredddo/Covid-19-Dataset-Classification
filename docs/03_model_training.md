@@ -1,4 +1,4 @@
-# Phase 3: Classifier Training & Optimization
+# Phase 3: Classifier Training & Model Configuration
 
 > This document describes the training phase of the three supervised classifiers — **Decision Tree**, **Random Forest**, and **Support Vector Machine (SVM)** — on the target `Phenotype_Cluster` produced by K-Means in Phase 1. All models share the same 70/30 split (`random_state=775`) defined in Phase 2, ensuring a fair and reproducible comparison.
 

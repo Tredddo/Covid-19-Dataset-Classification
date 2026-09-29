@@ -171,7 +171,7 @@ weighted avg       1.00      1.00      1.00     81000
 
 ### 4.3 Interpretation
 
-The Random Forest achieves a **perfectly diagonal** confusion matrix: every one of the 81,000 test patients is classified correctly. This is possible because the ensemble aggregates **6 decision trees**, each trained on a bootstrap sample with a random subset of features. While a single tree produces a jagged, stepwise approximation of the diagonal K-Means boundaries, the **majority vote** across multiple trees effectively smooths these steps and reconstructs the linear boundaries with high fidelity. The result confirms the theoretical advantage of ensemble methods over a single tree when the decision boundary is not axis-aligned.
+The Random Forest achieves a **perfectly diagonal** confusion matrix: every one of the 81,000 test observations is classified correctly. This is possible because the ensemble aggregates **6 decision trees**, each trained on a bootstrap sample with a random subset of features. While a single tree produces a jagged, stepwise approximation of the diagonal K-Means boundaries, the **majority vote** across multiple trees effectively smooths these steps and reconstructs the linear boundaries with high fidelity. The result confirms the theoretical advantage of ensemble methods over a single tree when the decision boundary is not axis-aligned.
 
 ---
 
