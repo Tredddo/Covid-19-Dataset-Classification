@@ -95,7 +95,7 @@ Since the original severity labels are not clearly separable in the explored sym
 - **`Total_Respiratory`:** sum of `Dry-Cough`, `Difficulty-in-Breathing`, `Sore-Throat`, `Nasal-Congestion`, `Runny-Nose` (range 0-5).
 - **`Total_Systemic`:** sum of `Fever`, `Tiredness`, `Pains`, `Diarrhea` (range 0-4).
 
-Records with conflicting or null clinical information (`None_Sympton == 1`, `None_Experiencing == 1`, or both totals equal to 0) are removed, reducing the cohort from 316,800 to **270,000 symptomatic patients**.
+Records with conflicting or null clinical information (`None_Sympton == 1`, `None_Experiencing == 1`, or both totals equal to 0) are removed, reducing the cohort from 316,800 to **270,000 symptomatic observations**.
 
 ---
 
