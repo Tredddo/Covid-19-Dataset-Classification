@@ -108,14 +108,14 @@ The two dominant features — **Tiredness** (systemic) and **Difficulty-in-Breat
 The perfect scores of Random Forest and SVM must be interpreted with caution. As emphasized in Phase 1 and Phase 4, the target `Phenotype_Cluster` is a **deterministic function** of the same symptoms used as input features:
 
 $$
-\text{Phenotype\_Cluster} = f(\text{Total\_Respiratory}, \text{Total\_Systemic})
+\text{Phenotype\\_Cluster} = f(\text{Total\\_Respiratory}, \text{Total\\_Systemic})
 $$
 
 where
 
 $$
-\text{Total\_Respiratory} = \sum_{j \in \text{Resp}} x_j, \quad
-\text{Total\_Systemic} = \sum_{j \in \text{Sys}} x_j
+\text{Total\\_Respiratory} = \sum\_{j \in \text{Resp}} x\_j, \quad
+\text{Total\\_Systemic} = \sum\_{j \in \text{Sys}} x\_j
 $$
 
 The classification task is therefore essentially to **reconstruct the K-Means assignment rules** from the original binary symptoms. High accuracy here measures how well each model reproduces those rules, **not** how well it predicts clinical severity.
